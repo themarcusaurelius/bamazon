@@ -71,4 +71,80 @@ Which prompts the following:
 
 ```    
     
+Below shows what happens if there is not available inventory:
 
+```
+ *****************************
+    *** Welcome To Bamazon!! ***
+    *****************************
+
+    *****************************************************************
+    The crappiest made knockoff of Amazon to ever take your money!
+    *****************************************************************
+
+
+    ID: 1  | Name: ShamWOW | Price: $ 20
+
+    ID: 2  | Name: Nest | Price: $ 209
+
+    ID: 3  | Name: iPhone X | Price: $ 1049
+
+    ID: 4  | Name: Keurig Coffee Maker | Price: $ 90
+
+    ID: 5  | Name: Instant Pot Rice Cooker | Price: $ 120
+
+    ID: 6  | Name: Red Dead Redemption 2 | Price: $ 80
+
+    ID: 7  | Name: Samsung Series Curved 49-Inch Gaming Monitor | Price: $ 996
+
+    ID: 8  | Name: Jack Link’s Beef Jerky, Teriyaki, 16 Ounce | Price: $ 14
+
+    ID: 9  | Name: The North Face Vault Backpack | Price: $ 55
+
+    ID: 10  | Name: Pop-Tarts Breakfast Toaster Pastries | Price: $ 3
+
+    -----------------------------------------------------
+
+? What is the ID of the product you would like to buy? 6
+? How many units of the product would you like to buy? 5000
+
+     Product ID: 6
+     Quantity Requested: 5000
+
+     Checking Inventory...
+
+[ RowDataPacket {
+    item_id: 6,
+    product_name: 'Red Dead Redemption 2',
+    department_name: 'Video Games',
+    price: 80,
+    stock_quantity: 505 } ]
+
+     We're sorry that quantity is not available!
+
+? Would you like to choose a differnt quantity or product? (Yes, No) Yes
+
+ ID: 1  | Name: ShamWOW | Price: $ 20
+
+    ID: 2  | Name: Nest | Price: $ 209
+
+    ID: 3  | Name: iPhone X | Price: $ 1049
+
+    ID: 4  | Name: Keurig Coffee Maker | Price: $ 90
+
+    ID: 5  | Name: Instant Pot Rice Cooker | Price: $ 120
+
+    ID: 6  | Name: Red Dead Redemption 2 | Price: $ 80
+
+    ID: 7  | Name: Samsung Series Curved 49-Inch Gaming Monitor | Price: $ 996
+
+    ID: 8  | Name: Jack Link’s Beef Jerky, Teriyaki, 16 Ounce | Price: $ 14
+
+    ID: 9  | Name: The North Face Vault Backpack | Price: $ 55
+
+    ID: 10  | Name: Pop-Tarts Breakfast Toaster Pastries | Price: $ 3
+
+    -----------------------------------------------------
+
+? What is the ID of the product you would like to buy?
+```
