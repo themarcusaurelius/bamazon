@@ -52,12 +52,7 @@ Which prompts the following:
 
      Checking Inventory...
 
-[ RowDataPacket {
-    item_id: 1,
-    product_name: 'ShamWOW',
-    department_name: 'Cleaning Supplies',
-    price: 20,
-    stock_quantity: 200 } ]
+     Quantity left: 200
 
      The amount you've requested is available.
 
