@@ -69,7 +69,7 @@ function beginOrder(res) {
 function checkInventory(item) {
     connection.query('SELECT * FROM products WHERE ?', {item_id: item.id}, function(err, res) {
         if(err) throw err;
-        console.log(res);
+        console.log(`Quantity left: ${res[0].stock_quantity}`);
         if (res[0].stock_quantity >= (parseInt(item.number))) {
             console.log(chalk.cyan(`\n     The amount you've requested is available. \n`));
             inquirer.prompt([
