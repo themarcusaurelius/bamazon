@@ -1,5 +1,13 @@
 # bamazon
 
+## Demo
+
+- [Video](https://drive.google.com/file/d/1kXo28g_cfS1SNlz-dJ8gpDdrIKv6tnUi/view)
+
+<p align="center">
+    <img src="https://giant.gfycat.com/JollyScaredAngelfish.gif">
+  </p>
+
 Bamazon is an incredible lifestyle changing platform that allows users to pick which products they would like to buy from the limited selection given, check if their chosen product has inventory, and complete the sale!
 
 There has never been anything like it before and will probably never be anything like it again! It is completely revolutionary!
