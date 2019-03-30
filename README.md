@@ -1,6 +1,6 @@
 # bamazon
 
-## Demo
+## Demo:
 
 - [Video](https://drive.google.com/file/d/1kXo28g_cfS1SNlz-dJ8gpDdrIKv6tnUi/view)
 
